@@ -1,1 +1,0 @@
-DriveBridge 0.11.6 (build 68): első indításkor, az engedélyek után nyelvválasztó jelenik meg angol alapértelmezéssel; a nyelvválasztó a főképernyő fejlécéből is elérhető; kikerült a Debug mód és az értesítésfigyelő szolgáltatás (nincs többé értesítés-hozzáférés).

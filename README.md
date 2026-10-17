@@ -6,23 +6,20 @@ Az alkalmazás zárt tesztben van, és nincs a Google Playen. A tesztelők innen
 
 ## Aktuális verzió
 
-A [Releases](https://github.com/Endre999/Release/releases) oldalon mindig csak a legújabb verzió van.
+A [Releases](https://github.com/Endre999/DriveBridge-Release/releases) oldalon mindig csak a legújabb verzió van.
 
 | | |
 |---|---|
-| Verzió | 0.11.1 (build 63) |
-| Fájl | `DriveBridge-0.11.1.apk`, 261 508 bájt |
-| Letöltés | [DriveBridge-0.11.1.apk](https://github.com/Endre999/Release/releases/download/drivebridge-reader-v0.11.1/DriveBridge-0.11.1.apk) |
-| SHA-256 | `b87d9c356d068fad4843e5f757e4c203806d1f2bc72867725a0af428e87222e7` |
+| Verzió | 0.11.2 (build 64) |
+| Fájl | `DriveBridge-0.11.2.apk`, 261 836 bájt |
+| Letöltés | [DriveBridge-0.11.2.apk](https://github.com/Endre999/DriveBridge-Release/releases/download/drivebridge-reader-v0.11.2/DriveBridge-0.11.2.apk) |
+| SHA-256 | `73526a10f4a18f707484c652106f548399d9a546ea1b51d1f048cfa08a9dd18e` |
 
 A kiadás közvetlenül letölthető APK-ként, ZIP-csomagolás nélkül.
 
-## Újdonságok a 0.11.1-ben
+## Újdonságok a 0.11.2-ben
 
-- Az alkalmazás minden felirata, gombja és üzenete mind a 32 nyelven elérhető.
-- A „Beállítási útmutató” gomb a választott nyelvű oldalt nyitja meg.
-- Android 13-tól az alkalmazás nyelve a rendszer „Alkalmazás nyelve” menüjében is beállítható.
-- A felolvasásból a választott nyelvtől függetlenül kimaradnak a ChatGPT és a Perplexity gombfeliratai.
+- Javítva: a nyelvválasztóban kiválasztott nyelv most érvénybe lép. Korábban az alkalmazás azonnal visszaállt magyarra, és a választás nem maradt meg újraindítás után sem.
 
 ## Amire szükséged van
 
@@ -34,16 +31,16 @@ A kiadás közvetlenül letölthető APK-ként, ZIP-csomagolás nélkül.
 
 ## Telepítés
 
-1. Töltsd le a telefonra a fenti `DriveBridge-0.11.1.apk` fájlt.
+1. Töltsd le a telefonra a fenti `DriveBridge-0.11.2.apk` fájlt.
 2. Nyisd meg a letöltött fájlt, és engedélyezd a telepítést ebből a forrásból, amikor az Android rákérdez.
 3. Indítsd el a DriveBridge-et. Két engedélyt kér: a mikrofont a diktáláshoz és az értesítéseket a médiavezérlőhöz.
-4. Ellenőrizd a főképernyő alján a feliratot: `Build 0.11.1 (63)`.
+4. Ellenőrizd a főképernyő alján a feliratot: `Build 0.11.2 (64)`.
 
 A fiókba a honlap Belépés gombjáról lehet belépni, e-mail-címmel és kóddal, jelszó nélkül.
 
 ### Frissítés korábbi verzióról
 
-A 0.11.1 ugyanazzal a kiadási tanúsítvánnyal van aláírva, mint a 0.11.0 és a 0.10.0, ezért eltávolítás nélkül frissíthető.
+A 0.11.2 ugyanazzal a kiadási tanúsítvánnyal van aláírva, mint a 0.11.1, a 0.11.0 és a 0.10.0, ezért eltávolítás nélkül frissíthető.
 
 Ha a telefonon lévő tesztverzió más aláírással készült, előbb el kell távolítani, mert az Android nem engedi rá telepíteni az újat. Az eltávolítás törli a telefonon tárolt leiratokat, ezért a megtartandókat előbb mentsd ki az alkalmazás Leiratok listájából.
 
@@ -71,11 +68,11 @@ Részletek: [Adatvédelem](https://www.pandaonthemoon.io/hu/privacy/), [Feltéte
 
 ## Visszajelzés
 
-A hibákat és az észrevételeket annak jelezd, akitől a tesztmeghívót kaptad. Segít, ha megírod a verziót (`Build 0.11.1 (63)`), a telefon és az autó típusát, és azt, hogy mit csináltál közvetlenül a hiba előtt.
+A hibákat és az észrevételeket annak jelezd, akitől a tesztmeghívót kaptad. Segít, ha megírod a verziót (`Build 0.11.2 (64)`), a telefon és az autó típusát, és azt, hogy mit csináltál közvetlenül a hiba előtt.
 
 ## A letöltött fájl ellenőrzése
 
-Nem kötelező. A fájl SHA-256 kivonata egyezzen a fenti értékkel; ugyanez a Releases oldalon a `DriveBridge-0.11.1.apk.sha256` fájlban is megvan.
+Nem kötelező. A fájl SHA-256 kivonata egyezzen a fenti értékkel; ugyanez a Releases oldalon a `DriveBridge-0.11.2.apk.sha256` fájlban is megvan.
 
 Az APK a DriveBridge saját kiadási kulcsával van aláírva. Az aláíró tanúsítvány SHA-256 ujjlenyomata:
 

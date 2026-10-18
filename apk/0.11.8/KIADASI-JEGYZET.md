@@ -1,1 +1,0 @@
-DriveBridge 0.11.8 (build 70): az alkalmazás eddig beégetett feliratai (például a „Vissza a DriveBridge-hez” gomb és a verziófelirat) mind a 32 nyelven lefordítva jelennek meg; kikerült a Diagnosztika rész (naplómentés és -törlés); a beszélgetés végét visszaigazoló hangüzenet már nem vágódik félbe, végig elhangzik.

@@ -4,6 +4,8 @@ A DriveBridge Android-alkalmazás: vezetés közben, a telefon érintése nélk�
 
 Az alkalmazás zárt tesztben van, és nincs a Google Playen. A tesztelők innen töltik le a telepítőfájlt (APK).
 
+**Tesztelőknek / For testers:** [TESZTELOKNEK.md](TESZTELOKNEK.md) · [TESTERS.md](TESTERS.md)
+
 ## Aktuális verzió
 
 A [Releases](https://github.com/Endre999/DriveBridge-Release/releases) oldalon mindig csak a legújabb verzió van.

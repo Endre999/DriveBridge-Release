@@ -10,18 +10,21 @@ A [Releases](https://github.com/Endre999/DriveBridge-Release/releases) oldalon m
 
 | | |
 |---|---|
-| Verzió | 0.11.8 (build 70) |
-| Fájl | `DriveBridge-0.11.8.apk`, 1 702 624 bájt |
-| Letöltés | [DriveBridge-0.11.8.apk](https://github.com/Endre999/DriveBridge-Release/releases/download/drivebridge-reader-v0.11.8/DriveBridge-0.11.8.apk) |
-| SHA-256 | `b464eee4b7fe9b73d24472258381544eeaa9aac5e83ce93b23461f2afb8a8beb` |
+| Verzió | 0.11.10 (build 72) |
+| Fájl | `DriveBridge-0.11.10.apk`, 1 712 032 bájt |
+| Letöltés | [DriveBridge-0.11.10.apk](https://github.com/Endre999/DriveBridge-Release/releases/download/drivebridge-reader-v0.11.10/DriveBridge-0.11.10.apk) |
+| SHA-256 | `b392afaab28487834f17b0d95b772d70264ac71d0c7b44b0e8203e5f83ca3569` |
 
 A kiadás közvetlenül letölthető APK-ként, ZIP-csomagolás nélkül.
 
-## Újdonságok a 0.11.8-ban
+## Újdonságok a 0.11.10-ben
 
-- Az alkalmazás eddig beégetett feliratai (például a „Vissza a DriveBridge-hez” gomb és a verziófelirat) mind a 32 nyelven lefordítva jelennek meg.
-- Kikerült a Diagnosztika rész (naplómentés és -törlés).
-- A beszélgetés végét visszaigazoló hangüzenet már nem vágódik félbe, végig elhangzik.
+A 0.11.10 a DriveBridge 0.11.5-ös szerverével működik együtt.
+
+- A Fiókbeállításokban már nem jelennek meg a Generáció sorok.
+- A párosító kód 5 percig érvényes. Új kódot 60 másodperc után lehet kérni, óránként legfeljebb ötöt, és az új kód érvényteleníti a régit.
+- Ha egy munkamenet lezárult, a telefon automatikusan újat indít, friss kóddal.
+- A kapcsolat a szerverrel akkor is él, amíg a Grok alkalmazásban vagy; ha megszakad, az alkalmazás automatikusan újrapróbálkozik.
 
 ## Amire szükséged van
 
@@ -33,16 +36,16 @@ A kiadás közvetlenül letölthető APK-ként, ZIP-csomagolás nélkül.
 
 ## Telepítés
 
-1. Töltsd le a telefonra a fenti `DriveBridge-0.11.8.apk` fájlt.
+1. Töltsd le a telefonra a fenti `DriveBridge-0.11.10.apk` fájlt.
 2. Nyisd meg a letöltött fájlt, és engedélyezd a telepítést ebből a forrásból, amikor az Android rákérdez.
 3. Indítsd el a DriveBridge-et. Két engedélyt kér: a mikrofont a diktáláshoz és az értesítéseket a médiavezérlőhöz. Utána kiválaszthatod az alkalmazás nyelvét.
-4. Ellenőrizd a főképernyő alján a feliratot: `Build 0.11.8 (70)`.
+4. Ellenőrizd a főképernyő alján a feliratot: `Build 0.11.10 (72)`.
 
 A fiókba a honlap Belépés gombjáról lehet belépni, e-mail-címmel és kóddal, jelszó nélkül.
 
 ### Frissítés korábbi verzióról
 
-A 0.11.8 ugyanazzal a kiadási tanúsítvánnyal van aláírva, mint a korábbi verziók (0.10.0-tól), ezért eltávolítás nélkül frissíthető.
+A 0.11.10 ugyanazzal a kiadási tanúsítvánnyal van aláírva, mint a korábbi verziók (0.10.0-tól), ezért eltávolítás nélkül frissíthető.
 
 Ha a telefonon lévő tesztverzió más aláírással készült, előbb el kell távolítani, mert az Android nem engedi rá telepíteni az újat. Az eltávolítás törli a telefonon tárolt leiratokat, ezért a megtartandókat előbb mentsd ki az alkalmazás Leiratok listájából.
 
@@ -70,11 +73,11 @@ Részletek: [Adatvédelem](https://www.pandaonthemoon.io/hu/privacy/), [Feltéte
 
 ## Visszajelzés
 
-A hibákat és az észrevételeket annak jelezd, akitől a tesztmeghívót kaptad. Segít, ha megírod a verziót (`Build 0.11.8 (70)`), a telefon és az autó típusát, és azt, hogy mit csináltál közvetlenül a hiba előtt.
+A hibákat és az észrevételeket annak jelezd, akitől a tesztmeghívót kaptad. Segít, ha megírod a verziót (`Build 0.11.10 (72)`), a telefon és az autó típusát, és azt, hogy mit csináltál közvetlenül a hiba előtt.
 
 ## A letöltött fájl ellenőrzése
 
-Nem kötelező. A fájl SHA-256 kivonata egyezzen a fenti értékkel; ugyanez a Releases oldalon a `DriveBridge-0.11.8.apk.sha256` fájlban is megvan.
+Nem kötelező. A fájl SHA-256 kivonata egyezzen a fenti értékkel; ugyanez a Releases oldalon a `DriveBridge-0.11.10.apk.sha256` fájlban is megvan.
 
 Az APK a DriveBridge saját kiadási kulcsával van aláírva. Az aláíró tanúsítvány SHA-256 ujjlenyomata:
 

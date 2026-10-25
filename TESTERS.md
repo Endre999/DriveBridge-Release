@@ -11,7 +11,7 @@ DriveBridge is an Android app that lets you talk to your own AI assistant hands-
 - A browser (or Claude Desktop) once, to add the connector, and mobile internet while driving
 
 ## Install
-1. Download [DriveBridge-0.11.10.apk](https://github.com/Endre999/DriveBridge-Release/releases/download/drivebridge-reader-v0.11.10/DriveBridge-0.11.10.apk). The [README](README.md) always has the latest link.
+1. Download [DriveBridge-0.11.11.apk](https://github.com/Endre999/DriveBridge-Release/releases/download/drivebridge-reader-v0.11.11/DriveBridge-0.11.11.apk). The [README](README.md) always has the latest link.
 2. Allow "Install unknown apps" for your browser or file manager. The exact menu varies by phone, usually under Settings → Apps (or Security). Many phones offer it when you open the file.
 3. Open the APK and tap Install. If Google Play Protect warns you, that's expected for apps outside Google Play. Choose *More details* → *Install anyway*.
 4. Optional: compare the SHA-256 with the value in the README.

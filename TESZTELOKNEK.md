@@ -18,7 +18,7 @@ A DriveBridge egy Android-alkalmazás, amellyel vezetés közben, a telefon éri
 
 ## 1. Az alkalmazás telepítése
 
-1. **Töltsd le** a telefonodra a telepítőfájlt: [DriveBridge-0.11.11.apk](https://github.com/Endre999/DriveBridge-Release/releases/download/drivebridge-reader-v0.11.11/DriveBridge-0.11.11.apk). Mindig a [README](README.md) legfrissebb linkjét használd.
+1. **Töltsd le** a telefonodra a telepítőfájlt: [DriveBridge-0.11.12.apk](https://github.com/Endre999/DriveBridge-Release/releases/download/drivebridge-reader-v0.11.12/DriveBridge-0.11.12.apk). Mindig a [README](README.md) legfrissebb linkjét használd.
 2. **Engedélyezd az ismeretlen alkalmazások telepítését** annak az alkalmazásnak, amellyel a fájlt megnyitod (például a böngésződnek vagy a fájlkezelőnek). A pontos menü telefononként más. Általában a Beállítások → Alkalmazások (vagy Biztonság) → *Ismeretlen alkalmazások telepítése* helyen találod. Sok telefon a fájl megnyitásakor magától rákérdez, és egy gombbal oda is visz.
 3. **Nyisd meg a letöltött APK-fájlt** (az értesítésekből vagy a Letöltések mappából), és koppints a *Telepítés* gombra.
 4. **Ha a Google Play Protect figyelmeztet**: ez természetes, mert az alkalmazás még nincs fent a Google Playen. Ilyenkor általában a *További részletek* (*More details*), majd a *Telepítés mindenképp* (*Install anyway*) lehetőséget kell választani. A pontos felirat változhat.
@@ -29,7 +29,7 @@ A DriveBridge egy Android-alkalmazás, amellyel vezetés közben, a telefon éri
 1. Indítsd el a DriveBridge-et. Két engedélyt kér: a **mikrofont** (a diktáláshoz) és az **értesítéseket** (a médiavezérlőhöz). Mindkettőt add meg.
 2. Ezután **kiválaszthatod az alkalmazás nyelvét**. Később a főképernyő fejlécéből is módosíthatod.
 3. **DriveBridge-fiók:** jelszó nincs. Az e-mail-címedet adod meg, és egy kódot kapsz rá e-mailben. Regisztrálj az alkalmazásban azzal az e-mail-címmel, amelyet a connector hozzáadásakor is használni fogsz. A fiókodat a böngészőben, a [https://mcp.pandaonthemoon.io/login](https://mcp.pandaonthemoon.io/login) oldalon is eléred, szintén e-mail-címmel és kóddal.
-4. A főképernyő alján ezt látod: `Build 0.11.11 (73)`.
+4. A főképernyő alján ezt látod: `Build 0.11.12 (74)`.
 
 ## 3. Az AI-kliens csatlakoztatása (egyszer kell)
 
@@ -85,7 +85,7 @@ Az AI a te szavaiddal, közvetlenül a fejlesztőnek továbbítja az üzenetet. 
 
 Ami sokat segít:
 - a **telefon típusa** és az **Android-verzió**;
-- az alkalmazás verziója (a főképernyő alján, például `Build 0.11.11 (73)`);
+- az alkalmazás verziója (a főképernyő alján, például `Build 0.11.12 (74)`);
 - az autó vagy a fejhallgató típusa;
 - **mi történt**, és mit csináltál közvetlenül előtte.
 

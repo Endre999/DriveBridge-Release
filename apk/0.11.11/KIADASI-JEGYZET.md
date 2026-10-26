@@ -1,1 +1,0 @@
-DriveBridge 0.11.11 (build 73), a 0.11.8-as szerverrel működik együtt: nincs többé felhasználói fiók és e-mailes belépés, a telefon maga az azonosító. Első indításkor párosító kódot kapsz, a connector hozzáadását a telefonon hagyod jóvá. A hozzáférések a telefonhoz kötődnek, eszközönként visszavonhatók. Ugyanazzal a kiadási tanúsítvánnyal aláírva, eltávolítás nélkül frissíthető.

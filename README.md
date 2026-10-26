@@ -12,21 +12,21 @@ A [Releases](https://github.com/Endre999/DriveBridge-Release/releases) oldalon m
 
 | | |
 |---|---|
-| Verzió | 0.11.11 (build 73) |
-| Fájl | `DriveBridge-0.11.11.apk`, 687 516 bájt |
-| Letöltés | [DriveBridge-0.11.11.apk](https://github.com/Endre999/DriveBridge-Release/releases/download/drivebridge-reader-v0.11.11/DriveBridge-0.11.11.apk) |
-| SHA-256 | `a55f7ff1e036574855587298d44a5cb9e3fd5adb0159339eaf7ba58378d5df96` |
+| Verzió | 0.11.12 (build 74) |
+| Fájl | `DriveBridge-0.11.12.apk`, 710 108 bájt |
+| Letöltés | [DriveBridge-0.11.12.apk](https://github.com/Endre999/DriveBridge-Release/releases/download/drivebridge-reader-v0.11.12/DriveBridge-0.11.12.apk) |
+| SHA-256 | `590fc7dd9b280b0ef54cdece737c75a75d6e490007f924292f9038e148f15d2a` |
 
 A kiadás közvetlenül letölthető APK-ként, ZIP-csomagolás nélkül.
 
-## Újdonságok a 0.11.11-ben
+## Újdonságok a 0.11.12-ben
 
-A 0.11.11 a DriveBridge 0.11.8-as szerverével működik együtt (build `192752b`).
+A 0.11.12 a DriveBridge 0.11.8-as szerverével működik együtt.
 
-- Nincs többé felhasználói fiók és e-mailes belépés: a telefon maga az azonosító.
-- Első indításkor a telefon párosító kódot kap; a connector hozzáadásakor ezt a telefonon kell jóváhagyni.
-- A hozzáférések a telefonhoz kötődnek, eszközönként visszavonhatók, és minden adat törölhető.
-- A visszajelzés-küldés és a nyelvválasztás megmaradt.
+- A nyitóképernyőn egyetlen Kapcsolódás gomb van. Megnyomása után kiválasztod az AI-klienst: Claude vagy Grok. Az app megjegyzi a választást.
+- Ha a kiválasztott kliens még nincs beállítva, az app megmutatja a connector címét és a beállítás lépéseit. Ha már be van állítva, a csatlakozó mondatot és egy gombot, amely megnyitja a kiválasztott AI-t.
+- A Beszélgetés vége gomb csak aktív menet alatt látszik.
+- A párosított AI-kliensek, az összes adat törlése és az adatvédelem a képernyő alján, a Beállítások kártyán van.
 
 ## Amire szükséged van
 
@@ -38,16 +38,16 @@ A 0.11.11 a DriveBridge 0.11.8-as szerverével működik együtt (build `192752b
 
 ## Telepítés
 
-1. Töltsd le a telefonra a fenti `DriveBridge-0.11.11.apk` fájlt.
+1. Töltsd le a telefonra a fenti `DriveBridge-0.11.12.apk` fájlt.
 2. Nyisd meg a letöltött fájlt, és engedélyezd a telepítést ebből a forrásból, amikor az Android rákérdez.
 3. Indítsd el a DriveBridge-et. Két engedélyt kér: a mikrofont a diktáláshoz és az értesítéseket a médiavezérlőhöz. Utána kiválaszthatod az alkalmazás nyelvét.
-4. Ellenőrizd a főképernyő alján a feliratot: `Build 0.11.11 (73)`.
+4. Ellenőrizd a főképernyő alján a feliratot: `Build 0.11.12 (74)`.
 
 A fiókba a honlap Belépés gombjáról lehet belépni, e-mail-címmel és kóddal, jelszó nélkül.
 
 ### Frissítés korábbi verzióról
 
-A 0.11.11 ugyanazzal a kiadási tanúsítvánnyal van aláírva, mint a korábbi verziók (0.10.0-tól), ezért eltávolítás nélkül frissíthető.
+A 0.11.12 ugyanazzal a kiadási tanúsítvánnyal van aláírva, mint a korábbi verziók (0.10.0-tól), ezért eltávolítás nélkül frissíthető.
 
 Ha a telefonon lévő tesztverzió más aláírással készült, előbb el kell távolítani, mert az Android nem engedi rá telepíteni az újat. Az eltávolítás törli a telefonon tárolt leiratokat, ezért a megtartandókat előbb mentsd ki az alkalmazás Leiratok listájából.
 
@@ -75,11 +75,11 @@ Részletek: [Adatvédelem](https://www.pandaonthemoon.io/hu/privacy/), [Feltéte
 
 ## Visszajelzés
 
-A hibákat és az észrevételeket annak jelezd, akitől a tesztmeghívót kaptad. Segít, ha megírod a verziót (`Build 0.11.11 (73)`), a telefon és az autó típusát, és azt, hogy mit csináltál közvetlenül a hiba előtt.
+A hibákat és az észrevételeket annak jelezd, akitől a tesztmeghívót kaptad. Segít, ha megírod a verziót (`Build 0.11.12 (74)`), a telefon és az autó típusát, és azt, hogy mit csináltál közvetlenül a hiba előtt.
 
 ## A letöltött fájl ellenőrzése
 
-Nem kötelező. A fájl SHA-256 kivonata egyezzen a fenti értékkel; ugyanez a Releases oldalon a `DriveBridge-0.11.11.apk.sha256` fájlban is megvan.
+Nem kötelező. A fájl SHA-256 kivonata egyezzen a fenti értékkel; ugyanez a Releases oldalon a `DriveBridge-0.11.12.apk.sha256` fájlban is megvan.
 
 Az APK a DriveBridge saját kiadási kulcsával van aláírva. Az aláíró tanúsítvány SHA-256 ujjlenyomata:
 
